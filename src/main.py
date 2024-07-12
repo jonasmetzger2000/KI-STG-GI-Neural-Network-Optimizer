@@ -4,7 +4,7 @@ import keras
 import numpy as np
 import sns
 import tensorflow as tf
-
+import time
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense, AveragePooling2D, UpSampling2D, BatchNormalization, GlobalAveragePooling2D
 
 cifar10 = tf.keras.datasets.cifar10
@@ -52,6 +52,7 @@ model = keras.Sequential([
     Dense(10, activation='softmax')
 ])
 
+start_time = time.time()
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
 
@@ -59,3 +60,5 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc']
 train_generator = img_gen.flow(x_train, y_train, batch_size=batch_size)
 
 history = model.fit(train_generator, epochs=epochs, steps_per_epoch=len(x_train))
+
+print("--- %s seconds ---" % (time.time() - start_time))
