@@ -2,18 +2,19 @@ import matplotlib.pyplot as plt
 import numpy as np
 from statistics import median
 
-offspring_1 = 2000
-offspring_2 = 7000
+offspring_1 = 1000
+offspring_2 = 8000
+
+between = offspring_2 - offspring_1
 
 min_x = 0
 max_x = 10000
 
-
 expectation = median([offspring_1, offspring_2])
-deviation = (expectation/max_x)
+deviation = expectation/max_x
 
 rng = np.random.default_rng()
-sample = 1 + (rng.binomial(n=100, p=(expectation/max_x), size=max_x*1000) - 1) * (max_x - 1) / (100 - 1)
+sample = rng.normal(expectation, between/4, size=1000)
 plt.hist(sample, 100, density=True)
 plt.axvline(x=deviation*max_x, color='lime', linestyle='--', label='deviation')
 plt.axvline(x=offspring_1, color='green', linestyle='--', label='offspring1')
