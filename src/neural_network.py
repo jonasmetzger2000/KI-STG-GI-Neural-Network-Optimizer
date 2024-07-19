@@ -5,6 +5,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 
+
 class NeuralNetwork:
     def __init__(self):
         # Prepare Dataset
