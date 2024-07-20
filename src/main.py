@@ -1,4 +1,11 @@
-from src.gaus import Gaus
+from chromosome import Chromosome
+from neural_network import NeuralNetwork
+from progress import Progress
 
-gaus = Gaus(0.00001, 0.1, 2)
-print(gaus.compute(0.00235, 0.012))
+progress = Progress()
+
+neural_network = NeuralNetwork()
+f1 = Chromosome(neural_network)
+f1.determine_fitness()
+progress.write_chromosome(f1)
+

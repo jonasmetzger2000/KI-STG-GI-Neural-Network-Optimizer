@@ -41,12 +41,11 @@ class NeuralNetwork:
             keras.layers.Dense(10, activation='softmax')
         ])
 
-    def execute(self, batch_size=32, epochs=10, learning_rate=0.001):
+    def execute(self, chromosome):
         start_time = time.time()
         self.model.compile(
-            optimizer=keras.optimizers.Adam(learning_rate),
+            optimizer=keras.optimizers.Adam(chromosome.learning_rate),
             loss='categorical_crossentropy',
             metrics=['acc'])
-        history = self.model.fit(self.x_train, self.y_train, batch_size, epochs)
-        print("--- %s seconds ---" % (time.time() - start_time))
-        return history
+        history = self.model.fit(self.x_train, self.y_train, chromosome.batch_size, 10)
+        return history, (time.time() - start_time)
