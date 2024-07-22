@@ -22,32 +22,29 @@ def execute(chromosome):
     model = keras.Sequential([
         keras.layers.Conv2D(32, 2, input_shape=x_train.shape[1:], activation='relu'),
         keras.layers.MaxPooling2D(strides=(2, 2)),
-        keras.layers.BatchNormalization(),
 
         keras.layers.Conv2D(64, 2, input_shape=x_train.shape[1:], activation='relu'),
         keras.layers.MaxPooling2D(strides=(2, 2)),
-        keras.layers.BatchNormalization(),
 
         keras.layers.Conv2D(128, 2, input_shape=x_train.shape[1:], activation='relu'),
         keras.layers.MaxPooling2D(strides=(2, 2)),
-        keras.layers.BatchNormalization(),
 
         keras.layers.Conv2D(256, 2, input_shape=x_train.shape[1:], activation='relu'),
         keras.layers.MaxPooling2D(strides=(2, 2)),
-        keras.layers.BatchNormalization(),
 
         keras.layers.Flatten(),
+        keras.layers.Dense(512, activation='relu'),
         keras.layers.Dense(256, activation='relu'),
         keras.layers.Dense(10, activation='softmax')
     ])
     model.compile(
-        optimizer=keras.optimizers.Adam(chromosome.learning_rate),
+        optimizer=keras.optimizers.Adam(learning_rate=float(chromosome.learning_rate)),
         loss='categorical_crossentropy',
         metrics=['acc'])
     history = model.fit(x_train,
                         y_train,
-                        chromosome.batch_size,
-                        10,
+                        int(chromosome.batch_size),
+                        epochs=chromosome.epochs,
                         verbose=0,
                         validation_data=(x_test, y_test))
     return history, (time.time() - start_time)

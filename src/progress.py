@@ -11,7 +11,8 @@ def write_chromosome(chromosome):
 def store_old_generations(chromosomes):
     file = open('current.txt', 'w')
     for chromosome in chromosomes:
-        file.write(chromosome.info)
+        if chromosome.info is not None:
+            file.write(chromosome.info)
     file.close()
 
 
@@ -22,8 +23,11 @@ def load_generations():
         for line in file:
             split = str(line).split(";")
             id = split[0]
-            batch_size = split[1]
-            learning_rate = split[2]
-            chromosomes.append(Chromosome(id, batch_size, learning_rate))
+            batch_size = int(split[1])
+            learning_rate = float(split[2])
+            epochs = int(split[3])
+            fitness = float(split[4])
+            info = line
+            chromosomes.append(Chromosome(id, batch_size, learning_rate, epochs, fitness, info))
         return chromosomes
     return []
