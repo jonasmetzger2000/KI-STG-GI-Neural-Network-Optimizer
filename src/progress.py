@@ -1,13 +1,29 @@
-class Progress:
-    def __init__(self):
-        try:
-            self.file = open('progress.csv', 'x+')
-            self.file.write(
-                "batchSize;learningRate;epoch1acc;epoch2acc;epoch3acc;epoch4acc;epoch5acc;epoch6acc;epoch7acc;" +
-                "epoch8acc;epoch9acc;epoch10acc;epoch1loss;epoch2loss;epoch3loss;epoch4loss;epoch5loss;epoch6lo" +
-                "ss;epoch7loss;epoch8loss;epoch9loss;epoch10loss;fitnessExecutionSeconds;fitness")
-        except FileExistsError:
-            self.file = open('progress.csv', 'a+')
+from chromosome import Chromosome
+import os
 
-    def write_chromosome(self, chromosome):
-        self.file.write(chromosome.info)
+
+def write_chromosome(chromosome):
+    file = open('progress.csv', 'a+')
+    file.write(chromosome.info)
+    file.close()
+
+
+def store_old_generations(chromosomes):
+    file = open('current.txt', 'w')
+    for chromosome in chromosomes:
+        file.write(chromosome.info)
+    file.close()
+
+
+def load_generations():
+    if os.path.isfile("current.txt"):
+        file = open('current.txt', 'r')
+        chromosomes = []
+        for line in file:
+            split = str(line).split(";")
+            id = split[0]
+            batch_size = split[1]
+            learning_rate = split[2]
+            chromosomes.append(Chromosome(id, batch_size, learning_rate))
+        return chromosomes
+    return []

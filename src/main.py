@@ -1,11 +1,31 @@
 from chromosome import Chromosome
-from neural_network import NeuralNetwork
-from progress import Progress
+from progress import load_generations, write_chromosome, store_old_generations
 
-progress = Progress()
+# Tweaks
+population_size = 50
 
-neural_network = NeuralNetwork()
-f1 = Chromosome(neural_network)
-f1.determine_fitness()
-progress.write_chromosome(f1)
+# Variables
+populations = load_generations()
+
+# initiale population erzeugen
+if len(populations) < 50:
+    print("Generiere initiale Bevölkerung..")
+    for i in range(population_size):
+        populations.append(Chromosome(i))
+
+# Fitness berechnen
+for chromosome in populations:
+    chromosome.determine_fitness()
+    write_chromosome(chromosome)
+# Current Generation speichern
+store_old_generations(populations)
+# Selektion (Tournament Selection ohne zurücklegen und Elitist Selektion)
+elitists = populations[:]
+elitists.sort(key=lambda x: x.fitness)
+
+survivors = []
+survivors += elitists
+print(populations)
+print(elitists)
+
 
