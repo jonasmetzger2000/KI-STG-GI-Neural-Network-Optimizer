@@ -37,6 +37,7 @@ for chromosome_a, chromosome_b in zip(it, it):
     populations.remove(chromosome_b)
     survivors.append(chromosome_a if chromosome_a.fitness <= chromosome_b.fitness else chromosome_b)
 
+survivors.sort(key=lambda x: x.fitness, reverse=True)
 print(survivors)
 print(len(survivors))
 

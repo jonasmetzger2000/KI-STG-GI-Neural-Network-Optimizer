@@ -54,7 +54,7 @@ class Chromosome:
         self.fitness = result.history['val_loss'][self.epochs-1]
         self.result = result
         self.duration = seconds
-        self.info = "{id};{acc}{batch_size};{learn_rate};{epochs};{neurons};{accuracy};{val_accuracy};{loss};{val_loss};{seconds};{fitness}\n".format(
+        self.info = "{id};{acc};{batch_size};{learn_rate};{epochs};{neurons};{accuracy};{val_accuracy};{loss};{val_loss};{seconds};{fitness}\n".format(
             id=self.id,
             acc=result.history['val_acc'][self.epochs-1],
             batch_size=self.batch_size,
