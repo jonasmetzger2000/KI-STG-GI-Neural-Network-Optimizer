@@ -23,11 +23,12 @@ def load_generations():
         for line in file:
             split = str(line).split(";")
             id = split[0]
-            batch_size = int(split[1])
-            learning_rate = float(split[2])
-            epochs = int(split[3])
-            fitness = float(split[4])
+            fitness = split[1]
+            batch_size = int(split[2])
+            learning_rate = float(split[3])
+            epochs = int(split[4])
+            neurons = int(split[5])
             info = line
-            chromosomes.append(Chromosome(id, batch_size, learning_rate, epochs, fitness, info))
+            chromosomes.append(Chromosome(id, batch_size, learning_rate, epochs, neurons, fitness, info))
         return chromosomes
     return []

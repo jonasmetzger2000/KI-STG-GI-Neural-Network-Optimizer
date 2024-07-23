@@ -1,4 +1,4 @@
-from chromosome import Chromosome
+from chromosome import Chromosome, initial_neurone_size, initial_epochs, initial_learning_rate, initial_batch_size
 from progress import load_generations, write_chromosome, store_old_generations
 
 # Tweaks
@@ -9,10 +9,8 @@ elitists_count = 5
 populations = load_generations()
 
 # initiale population erzeugen
-if len(populations) < 50:
-    print("Generiere initiale Bevölkerung..")
-    for i in range(population_size):
-        populations.append(Chromosome(i))
+while len(populations) < population_size:
+    populations.append(Chromosome(len(populations), initial_learning_rate(), initial_batch_size(), initial_epochs(), initial_neurone_size()))
 
 # Fitness berechnen
 for chromosome in populations:
@@ -26,7 +24,7 @@ survivors = []
 
 # Eltitists Selektion
 elitists = populations[:]
-elitists.sort(key=lambda x: x.fitness)
+elitists.sort(key=lambda x: x.fitness, reverse=True)
 elitists = elitists[0:elitists_count-1]
 survivors += elitists
 for elitist in elitists:

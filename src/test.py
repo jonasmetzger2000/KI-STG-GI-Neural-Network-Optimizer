@@ -1,8 +1,9 @@
 from chromosome import Chromosome
-from neural_network import NeuralNetwork
 
-neural_network = NeuralNetwork()
-f1 = Chromosome(1, neural_network, 1732, 1.0044068105651245e-05)
+# Nach dem Training eines Modells
+
+
+f1 = Chromosome(1, 0.0011840646551778715, 496, 7, 963)
 f1.determine_fitness()
 print(f1)
 
