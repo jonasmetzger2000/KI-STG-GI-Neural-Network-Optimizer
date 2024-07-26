@@ -114,10 +114,10 @@ def get_population(population_size):
         # Erstelle initial Population
         while len(population) < population_size:
             chromosome = Chromosome(len(population),
-                                    initial_learning_rate(),
-                                    initial_batch_size(),
-                                    initial_epochs(),
-                                    initial_neurone_size())
+                                initial_learning_rate(),
+                                initial_batch_size(),
+                                initial_epochs(),
+                                initial_neurone_size())
             print(str(chromosome))
             population.append(chromosome)
         return population
@@ -134,9 +134,10 @@ def get_population(population_size):
 
 def genetic_algorithm():
     # Tweaks
-    population_size = 5
-    elitists_count = 1
+    population_size = 100
+    elitists_count = 2
     mutation_rate = 0.20
+    variance_factor = 3
 
     population = get_population(population_size)
 
@@ -178,10 +179,10 @@ def genetic_algorithm():
             parent2 = population[1]
             id = next_id
             next_id += 1
-            learning_rate = Gaus(0.00001, 0.1, 3).compute(parent1.learning_rate, parent2.learning_rate)
-            batch_size = Gaus(8, 512, 3).compute(parent1.batch_size, parent2.batch_size, lambda x: int(x))
-            epochs = Gaus(5, 20, 3).compute(parent1.epochs, parent2.epochs, lambda x: int(x))
-            neurons = Gaus(10, 1000, 3).compute(parent1.neurons, parent2.neurons, lambda x: int(x))
+            learning_rate = Gaus(0.00001, 0.1, variance_factor).compute(parent1.learning_rate, parent2.learning_rate)
+            batch_size = Gaus(8, 512, variance_factor).compute(parent1.batch_size, parent2.batch_size, lambda x: int(x))
+            epochs = Gaus(5, 20, variance_factor).compute(parent1.epochs, parent2.epochs, lambda x: int(x))
+            neurons = Gaus(10, 1000, variance_factor).compute(parent1.neurons, parent2.neurons, lambda x: int(x))
             child = Chromosome(id, learning_rate, batch_size, epochs, neurons)
             print(str(child))
             population.append(child)
