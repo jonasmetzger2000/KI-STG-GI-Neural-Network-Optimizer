@@ -29,7 +29,7 @@ result = model.fit(x_train,
                     y_train,
                     int(batch_size),
                     epochs=epochs,
-                    verbose=0,
+                    verbose=1,
                     validation_data=(x_test, y_test))
 
 f = open("temp", "w+")
