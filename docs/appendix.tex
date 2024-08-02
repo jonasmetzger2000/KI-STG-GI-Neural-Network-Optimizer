@@ -9,14 +9,32 @@
 
 % ein Kapitel, das nicht numeriert, aber trotzdem ins Inhaltsverzeichnis
 % aufgenommen wird
-\addchap{Anhang}
+\clearpage
+\section*{Anhang}
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1\linewidth]{acc.png}
+	\caption{Lauf mit Priorisierung der Exploitation: Höchste Genauigkeit pro Generation}
+	\label{fig:enter-label}
+\end{figure}
 
-Hier beginnt der Anhang.  Siehe die Anmerkungen zur Sinnhaftigkeit eines
-Anhangs in Abschnitt~\ref{sec-app} auf Seite~\pageref{sec-app}.
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1\linewidth]{loss_explore.png}
+	\caption{Lauf mit Priorisierung der Exploration: Geringster Fehler pro Generation}
+	\label{fig:enter-label}
+\end{figure}
 
-Der Anhang kann wie das eigentliche Dokument in Kapitel und Abschnitte
-unterteilt werden.  Der Befehl \verb|\appendix| sorgt im Wesentlichen nur für
-eine andere Nummerierung.
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=1\linewidth]{acc.png}
+	\caption{Lauf mit Priorisierung der Exploration: Höchste Genauigkeit pro Generation}
+	\label{fig:enter-label}
+\end{figure}
+
+
+Der Sourcecode steht auf Github zur Verfügung:\\
+\url{https://github.com/jonasmetzger2000/KI-STG-GI-Neural-Network-Optimizer}
 
 % neue Seite
 \clearpage
@@ -30,7 +48,7 @@ eine andere Nummerierung.
 % Hier müssen Sie natürlich den Titel der Arbeit sowie Ort und Datum ersetzen:
 Hiermit versichere ich, dass ich die vorliegende Bachelorarbeit mit dem Titel
 \begin{center}
-  \textbf{Viele zufällige Zahlen}
+  \textbf{Optimierung der Hyperparameter eines Neuronalen Netzes durch einen evolutionären Algorithmus}
 \end{center}
 selbstständig und nur mit den angegebenen Hilfsmitteln verfasst habe.  Alle
 Passagen, die ich wörtlich aus der Literatur oder aus anderen Quellen wie
@@ -39,4 +57,4 @@ der Quelle kenntlich gemacht.
 
 \vspace{2cm}
 
-Hamburg, 21.\ Dezember 1940
+Hamburg, 2. August 2024

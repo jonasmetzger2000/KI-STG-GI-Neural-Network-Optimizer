@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {0.1}Einleitung}{1}{section.0.1}%
+\contentsline {chapter}{\nonumberline Anhang}{2}{chapter*.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

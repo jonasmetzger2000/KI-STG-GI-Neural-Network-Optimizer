@@ -1,6 +1,26 @@
 \chapter{Methodik}
-\section{Datengrundlage des neuronalen Netzes}
-\section{Startparameter für genetischen Algorithmus}
+\section{Versuchsaufbau}
+\subsection{Neuronales Netz}
+Nachfolgend ist die serielle Architektur des neuronalen Netzes aufgezeigt, zur Minimalisierung der Fehlerfunktion wird Adam eingesetzt. 
+\begin{enumerate}
+	\item Verdeckte Schicht: Vollständig verbundene Schicht mit durch genetischen Algorithmus optimierten Neuronenzahl, benutzt die ReLu Funktion zur Aktivierung.
+	\item Ausgabeschicht: Vollständig verbundene Schicht mit 10 Neuronen, welche durch Softmax aktiviert werden
+\end{enumerate}
+Bei der Wahl der Architektur wurde drauf geachtet, ein nicht allzu kompliziertes Netz zu bauen. Ein flaches Netzwerk hat viel weniger Hyperparameter als ein tiefes Netz mit Convolutional- und Pooling- Schichten. Damit wurde der Suchraum für den genetischen Algorithmus drastisch reduziert.
+
+\subsection{Trainingsdaten}
+Das Modell wird auf dem populären Mnist Datensatz laufen. Dieser umfasst 60.000 Daten zum Training und 10.000 zur Validierung. Ein Datensatz enthält eine handgeschriebene Ziffer von 0 bis 9, mit 28x28 Pixel in Graustufe \parencite{noauthor_mnist_nodate}.
+
+\section{Implementierung}
+Die Implementierung erfolgt in Python. Das neuronale Netz wird mit Keras/Tensorflow ausgeführt und der genetische Algorithmus wird selbst implementiert. Hierfür lagen noch einzelne Codestücke in Java vor. Da das Training länger dauern kann, soll insbesondere ein Fokus auf Stabilität, als auch auf die Persistenz. Einzelne Generationen werden gesondert zu in einem "State" gespeichert und von diesem kann der Algorithmus auch wieder fortfahren.
+
 \section{Durchführung}
+Der genetische Algorithmus wird in der "ICC Cloud" der HAW Hamburg ausgeführt. Der Zugriff erfolgt über JupyterHub. Durch die Persistenz kann der Algorithmus jederzeit gestoppt und fortgefahren werden. Dabei haben sich die Jupyter Notebooks als nicht praktikabel erwiesen. Der Output war teilweise schwammig und nicht sichtbar, sodass der Verlauf des Algorithmus nicht gut beobachtet werden. Deshalb wird das Programm als Standalone Python Script innerhalb von JupyterHub ausgeführt. Das Training lief auf einer Tesla V100 GPU, was die Trainingszeiten erheblich verbesserte.
+
+Die Durchführung erfolge mit zwei Konfigurationen, einmal mit einer höheren Standardabweichung bei der Rekombination als auch mit einer niedrigeren. Somit kann bei allen nachfolgenden Generationen entweder der Fokus auf Exploration oder auf die Exploitation gelegt werden.
+
 \section{Herausforderungen}
-\section{Bewertung}
+\subsection{Memory Leak in Tensorflow}
+Das mehrfache Ausführen in Tensorflow verursachte leider konstant einen Speicherleck, sodass eine zuverlässige Ausführung des Algorithmus unmöglich wurde. Das Speicherleck trat sowohl bei unterschiedlichen Tensorflow/Keras Versionen auf, als auch auf verschiedenen Systemen. Daher wurde das Programm in zwei unterschiedliche Programme geteilt, eines welches den genetischen Algorithmus ausführte und eines, das die Ausführung des neuronalen Netzes durchführte. Dieses wurde dann vom genetischen Algorithmus pro Fitness-Berechnung ausgeführt und die Resultate als Datei übergeben. 
+\subsection{Hyperparameterbegrenzung durch Hauptspeicherlimitierung}
+Eine zu hohe Konfiguration der Hyperparameter führte innerhalb der Maschine zum Abbruch, da eine hohe Batch-Größe in Kombination mit einer großen Neuronenzahl zu einer hohen Speichernutzung führt. Dies kann soweit führen, dass die Ausführung nicht mehr möglich ist. Hierfür muss eine Limitierung der Parameter gefunden werden. Dies ist bei ein oder zwei Parametern trivial, kann aber bei tieferen Netzen zum Problem werden.

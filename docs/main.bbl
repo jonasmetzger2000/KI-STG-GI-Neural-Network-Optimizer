@@ -1,0 +1,1031 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{hutter_hyperparameter_2019}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2661e0a744cd67c731851c7f1c80d2e2}{%
+           family={Feurer},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=528d4af87fd2ecf5fb8a22db913ce088}{%
+           family={Hutter},
+           familyi={H\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{%
+           family={Hutter},
+           familyi={H\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d989545591ff0b2bb124972c34d7811b}{%
+           family={Kotthoff},
+           familyi={K\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4ce3afeba4f8f866dbad8e5b02118406}{%
+           family={Vanschoren},
+           familyi={V\bibinitperiod},
+           given={Joaquin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{fullhash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{bibnamehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{authorbibnamehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{authornamehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{authorfullhash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{editorbibnamehash}{b7f813edbdf62f46111bb70430af9da8}
+      \strng{editornamehash}{84d81f6d9b50a3d89ef4818b77346d74}
+      \strng{editorfullhash}{b7f813edbdf62f46111bb70430af9da8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent interest in complex and computationally expensive machine learning models with many hyperparameters, such as automated machine learning (AutoML) frameworks and deep neural networks, has resulted in a resurgence of research on hyperparameter optimization (HPO). In this chapter, we give an overview of the most prominent approaches for HPO. We ﬁrst discuss blackbox function optimization methods based on model-free methods and Bayesian optimization. Since the high computational demand of many modern machine learning applications renders pure blackbox optimization extremely costly, we next focus on modern multi-ﬁdelity methods that use (much) cheaper variants of the blackbox function to approximately assess the quality of hyperparameter settings. Lastly, we point to open problems and future research directions.}
+      \field{annotation}{and it was also established early that different hyperparameter configurations tend to work best for different datasets” (Feurer and Hutter, 2019, p. 2)}
+      \field{booktitle}{Automated {Machine} {Learning}}
+      \field{isbn}{978-3-030-05317-8}
+      \field{note}{Series Title: The Springer Series on Challenges in Machine Learning}
+      \field{title}{Hyperparameter {Optimization}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 33}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/978-3-030-05318-5_1
+      \endverb
+      \verb{file}
+      \verb Feurer and Hutter - 2019 - Hyperparameter Optimization.pdf:/Users/jonasmetzger/Zotero/storage/X78CZ86G/Feurer and Hutter - 2019 - Hyperparameter Optimization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-05318-5_1
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-05318-5_1
+      \endverb
+    \endentry
+    \entry{goodfellow_deep_2016}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Applied math and machine learning basics. Linear algebra -- Probability and information theory -- Numerical computation -- Machine learning basics -- Deep networks: modern practices. Deep feedforward networks -- Regularization for deep learning -- Optimization for training deep models -- Convolutional networks -- Sequence modeling: recurrent and recursive nets -- Practical methodology -- Applications -- Deep learning research. Linear factor models -- Autoencoders -- Representation learning -- Structured probabilistic models for deep learning -- Monte Carlo methods -- Confronting the partition function -- Approximate inference -- Deep generative models}
+      \field{isbn}{978-0-262-03561-3}
+      \field{series}{Adaptive computation and machine learning}
+      \field{title}{Deep learning}
+      \field{year}{2016}
+      \verb{file}
+      \verb Ian Goodfellow, Yoshua Bengio, Aaron Courville - Deep Learning (2017, MIT).pdf:/Users/jonasmetzger/Zotero/storage/PTA3Y72X/Ian Goodfellow, Yoshua Bengio, Aaron Courville - Deep Learning (2017, MIT).pdf:application/pdf
+      \endverb
+      \keyw{Machine learning}
+    \endentry
+    \entry{herrera_tackling_1998}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f5caf9ebcafeba6a768fdc516bb5c5e8}{%
+           family={Herrera},
+           familyi={H\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4117c183e1388ff2598d24419695ab6}{%
+           family={Lozano},
+           familyi={L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cd39fe139958681edfb1c57890f0c1c}{%
+           family={Verdegay},
+           familyi={V\bibinitperiod},
+           given={J\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{eb687fc1b1085d7c768392d3dc6cacb9}
+      \strng{fullhash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \strng{bibnamehash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \strng{authorbibnamehash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \strng{authornamehash}{eb687fc1b1085d7c768392d3dc6cacb9}
+      \strng{authorfullhash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic algorithms play a signiﬁcant role, as search techniques for handling complex spaces, in many ﬁelds such as artiﬁcial intelligence, engineering, robotic, etc. Genetic algorithms are based on the underlying genetic process in biological organisms and on the natural evolution principles of populations. These algorithms process a population of chromosomes, which represent search space solutions, with three operations: selection, crossover and mutation.}
+      \field{title}{Tackling {Real}-{Coded} {Genetic} {Algorithms}: {Operators} and {Tools} for {Behavioural} {Analysis}}
+      \field{year}{1998}
+      \verb{file}
+      \verb Herrera et al. - Tackling Real-Coded Genetic Algorithms Operators .pdf:/Users/jonasmetzger/Zotero/storage/2P6KQU4D/Herrera et al. - Tackling Real-Coded Genetic Algorithms Operators .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{karlupia_genetic_2023}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4d1fee0737d7b2b9465583174b21bff3}{%
+           family={Karlupia},
+           familyi={K\bibinitperiod},
+           given={Namrata},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87b995be15058a7c5d3d0889f9da1943}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Palak},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0581af131a8fc15908686167a868bcf2}{%
+           family={Abrol},
+           familyi={A\bibinitperiod},
+           given={Pawanesh},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de9fc44248661306c3b34c02309e479e}{%
+           family={Lehana},
+           familyi={L\bibinitperiod},
+           given={Parveen\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d19f6c2a1bb795bac87e061156320efa}
+      \strng{fullhash}{eddd1822899093ebd128b041bf599223}
+      \strng{bibnamehash}{eddd1822899093ebd128b041bf599223}
+      \strng{authorbibnamehash}{eddd1822899093ebd128b041bf599223}
+      \strng{authornamehash}{d19f6c2a1bb795bac87e061156320efa}
+      \strng{authorfullhash}{eddd1822899093ebd128b041bf599223}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1641-876X, 2083-8492}
+      \field{journaltitle}{International Journal of Applied Mathematics and Computer Science}
+      \field{number}{1}
+      \field{title}{A genetic algorithm based optimized convolutional neural network for face recognition}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.34768/amcs-2023-0002
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/jonasmetzger/Zotero/storage/DQ9XPPZJ/Karlupia et al. - 2023 - A genetic algorithm based optimized convolutional .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://sciendo.com/article/10.34768/amcs-2023-0002
+      \endverb
+      \verb{url}
+      \verb https://sciendo.com/article/10.34768/amcs-2023-0002
+      \endverb
+    \endentry
+    \entry{kruse_evolutionare_2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8c6bfb55f611e5129b73e1ba174e45bb}{%
+           family={Kruse},
+           familyi={K\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=601870b2622b0bc3355366b34ff0821a}{%
+           family={Held},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{fullhash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{bibnamehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{authorbibnamehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{authornamehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{authorfullhash}{cefade6cdd478780940e9e50e4987cd3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Evolutionäre {Algorithmen} {Variation} und genetische {Operatoren}}
+      \field{year}{2013}
+      \verb{file}
+      \verb Kruse and Held - Otto-von-Guericke-Universität Magdeburg Fakultät f.pdf:/Users/jonasmetzger/Zotero/storage/W2RCJ95G/Kruse and Held - Otto-von-Guericke-Universität Magdeburg Fakultät f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://fuzzy.cs.ovgu.de/ci/ea/ea2013_v04_operatoren.pdf
+      \endverb
+      \verb{url}
+      \verb http://fuzzy.cs.ovgu.de/ci/ea/ea2013_v04_operatoren.pdf
+      \endverb
+    \endentry
+    \entry{noauthor_mnist_nodate}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{{MNIST} handwritten digit database, {Yann} {LeCun}, {Corinna} {Cortes} and {Chris} {Burges}}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb MNIST handwritten digit database, Yann LeCun, Corinna Cortes and Chris Burges:/Users/jonasmetzger/Zotero/storage/7ZNRDWZE/mnist.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://yann.lecun.com/exdb/mnist/
+      \endverb
+      \verb{url}
+      \verb https://yann.lecun.com/exdb/mnist/
+      \endverb
+    \endentry
+    \entry{schaul_no_2013}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a56e72b23778a835bdade7d0511e43a3}{%
+           family={Schaul},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=facc531af74a8a6f7697ee9fb168f906}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Sixin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{04a0db021533adedf96ff47bc975d01a}
+      \strng{fullhash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \strng{bibnamehash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \strng{authorbibnamehash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \strng{authornamehash}{04a0db021533adedf96ff47bc975d01a}
+      \strng{authorfullhash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The performance of stochastic gradient descent (SGD) depends critically on how learning rates are tuned and decreased over time. We propose a method to automatically adjust multiple learning rates so as to minimize the expected error at any one time. The method relies on local gradient variations across samples. In our approach, learning rates can increase as well as decrease, making it suitable for non-stationary problems. Using a number of convex and non-convex learning tasks, we show that the resulting algorithm matches the performance of SGD or other adaptive approaches with their best settings obtained through systematic search, and eﬀectively removes the need for learning rate tuning.}
+      \field{month}{2}
+      \field{note}{arXiv:1206.1106 [cs, stat]}
+      \field{title}{No {More} {Pesky} {Learning} {Rates}}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Schaul et al. - 2013 - No More Pesky Learning Rates.pdf:/Users/jonasmetzger/Zotero/storage/S7GIQJJP/Schaul et al. - 2013 - No More Pesky Learning Rates.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1206.1106
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1206.1106
+      \endverb
+      \keyw{Statistics - Machine Learning,Computer Science - Machine Learning}
+    \endentry
+    \entry{sonnet_neuronale_2022}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5bc52c0522ab22c6d4a44caaa495bfc3}{%
+           family={Sonnet},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{fullhash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{bibnamehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{authorbibnamehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{authornamehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{authorfullhash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-658-29080-1}
+      \field{series}{{IT} kompakt}
+      \field{shorttitle}{Neuronale {Netze} kompakt}
+      \field{title}{Neuronale {Netze} kompakt: {Vom} {Perceptron} zum {Deep} {Learning}}
+      \field{urlday}{30}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-658-29081-8
+      \endverb
+      \verb{file}
+      \verb Sonnet - 2022 - Neuronale Netze kompakt Vom Perceptron zum Deep L.pdf:/Users/jonasmetzger/Zotero/storage/RZQEKRSH/Sonnet - 2022 - Neuronale Netze kompakt Vom Perceptron zum Deep L.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-658-29081-8
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-658-29081-8
+      \endverb
+    \endentry
+    \entry{stelldinger_naturanaloge_2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d59b5cbed601e4734e3a78f47e39ad1d}{%
+           family={Stelldinger},
+           familyi={S\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Peer},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{fullhash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{bibnamehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{authorbibnamehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{authornamehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{authorfullhash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Künstliche Intelligenz}
+      \field{title}{Naturanaloge {Optimierungsverfahren} – {Genetische} {Algorithmen}}
+      \field{year}{2024}
+      \verb{file}
+      \verb Stelldinger - 2024 - Naturanaloge Optimierungsverfahren – Genetische Al.pdf:/Users/jonasmetzger/Zotero/storage/XLQAADJX/Stelldinger - 2024 - Naturanaloge Optimierungsverfahren – Genetische Al.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{wolfangel_chatgpt_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a30357b090f56d13fc631f774742f074}{%
+           family={Wolfangel},
+           familyi={W\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de-DE}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \strng{namehash}{a30357b090f56d13fc631f774742f074}
+      \strng{fullhash}{a30357b090f56d13fc631f774742f074}
+      \strng{bibnamehash}{a30357b090f56d13fc631f774742f074}
+      \strng{authorbibnamehash}{a30357b090f56d13fc631f774742f074}
+      \strng{authornamehash}{a30357b090f56d13fc631f774742f074}
+      \strng{authorfullhash}{a30357b090f56d13fc631f774742f074}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Künstliche Intelligenz könnte die menschliche irgendwann überflügeln. Manche halten das für Science-Fiction. Einige Forscher sehen erste Anzeichen dafür schon in GPT-4.}
+      \field{issn}{0044-2070}
+      \field{journaltitle}{Die Zeit}
+      \field{month}{4}
+      \field{shorttitle}{{ChatGPT}}
+      \field{title}{{ChatGPT}: {Wie} nah sind wir an der {Superintelligenz}?}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jonasmetzger/Zotero/storage/7JMK8D5K/chatgpt-kuenstliche-intelligenz-forschung.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.zeit.de/digital/2023-04/chatgpt-kuenstliche-intelligenz-forschung
+      \endverb
+      \verb{url}
+      \verb https://www.zeit.de/digital/2023-04/chatgpt-kuenstliche-intelligenz-forschung
+      \endverb
+      \keyw{Chatbot,ChatGPT,Forschung,Intelligenz,künstliche Intelligenz,Singularität,Sprachmodell,Superintelligenz}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{hutter_hyperparameter_2019}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2661e0a744cd67c731851c7f1c80d2e2}{%
+           family={Feurer},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=528d4af87fd2ecf5fb8a22db913ce088}{%
+           family={Hutter},
+           familyi={H\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{%
+           family={Hutter},
+           familyi={H\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d989545591ff0b2bb124972c34d7811b}{%
+           family={Kotthoff},
+           familyi={K\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4ce3afeba4f8f866dbad8e5b02118406}{%
+           family={Vanschoren},
+           familyi={V\bibinitperiod},
+           given={Joaquin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{fullhash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{bibnamehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{authorbibnamehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{authornamehash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{authorfullhash}{b354f633c98aba5a037e655b4d3514b1}
+      \strng{editorbibnamehash}{b7f813edbdf62f46111bb70430af9da8}
+      \strng{editornamehash}{84d81f6d9b50a3d89ef4818b77346d74}
+      \strng{editorfullhash}{b7f813edbdf62f46111bb70430af9da8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent interest in complex and computationally expensive machine learning models with many hyperparameters, such as automated machine learning (AutoML) frameworks and deep neural networks, has resulted in a resurgence of research on hyperparameter optimization (HPO). In this chapter, we give an overview of the most prominent approaches for HPO. We ﬁrst discuss blackbox function optimization methods based on model-free methods and Bayesian optimization. Since the high computational demand of many modern machine learning applications renders pure blackbox optimization extremely costly, we next focus on modern multi-ﬁdelity methods that use (much) cheaper variants of the blackbox function to approximately assess the quality of hyperparameter settings. Lastly, we point to open problems and future research directions.}
+      \field{annotation}{and it was also established early that different hyperparameter configurations tend to work best for different datasets” (Feurer and Hutter, 2019, p. 2)}
+      \field{booktitle}{Automated {Machine} {Learning}}
+      \field{isbn}{978-3-030-05317-8}
+      \field{note}{Series Title: The Springer Series on Challenges in Machine Learning}
+      \field{title}{Hyperparameter {Optimization}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{3\bibrangedash 33}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/978-3-030-05318-5_1
+      \endverb
+      \verb{file}
+      \verb Feurer and Hutter - 2019 - Hyperparameter Optimization.pdf:/Users/jonasmetzger/Zotero/storage/X78CZ86G/Feurer and Hutter - 2019 - Hyperparameter Optimization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-030-05318-5_1
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-030-05318-5_1
+      \endverb
+    \endentry
+    \entry{goodfellow_deep_2016}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Massachusetts}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Applied math and machine learning basics. Linear algebra -- Probability and information theory -- Numerical computation -- Machine learning basics -- Deep networks: modern practices. Deep feedforward networks -- Regularization for deep learning -- Optimization for training deep models -- Convolutional networks -- Sequence modeling: recurrent and recursive nets -- Practical methodology -- Applications -- Deep learning research. Linear factor models -- Autoencoders -- Representation learning -- Structured probabilistic models for deep learning -- Monte Carlo methods -- Confronting the partition function -- Approximate inference -- Deep generative models}
+      \field{isbn}{978-0-262-03561-3}
+      \field{series}{Adaptive computation and machine learning}
+      \field{title}{Deep learning}
+      \field{year}{2016}
+      \verb{file}
+      \verb Ian Goodfellow, Yoshua Bengio, Aaron Courville - Deep Learning (2017, MIT).pdf:/Users/jonasmetzger/Zotero/storage/PTA3Y72X/Ian Goodfellow, Yoshua Bengio, Aaron Courville - Deep Learning (2017, MIT).pdf:application/pdf
+      \endverb
+      \keyw{Machine learning}
+    \endentry
+    \entry{herrera_tackling_1998}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f5caf9ebcafeba6a768fdc516bb5c5e8}{%
+           family={Herrera},
+           familyi={H\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4117c183e1388ff2598d24419695ab6}{%
+           family={Lozano},
+           familyi={L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cd39fe139958681edfb1c57890f0c1c}{%
+           family={Verdegay},
+           familyi={V\bibinitperiod},
+           given={J\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{eb687fc1b1085d7c768392d3dc6cacb9}
+      \strng{fullhash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \strng{bibnamehash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \strng{authorbibnamehash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \strng{authornamehash}{eb687fc1b1085d7c768392d3dc6cacb9}
+      \strng{authorfullhash}{482863ea54c36c0f51cfa9ec80bf1408}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic algorithms play a signiﬁcant role, as search techniques for handling complex spaces, in many ﬁelds such as artiﬁcial intelligence, engineering, robotic, etc. Genetic algorithms are based on the underlying genetic process in biological organisms and on the natural evolution principles of populations. These algorithms process a population of chromosomes, which represent search space solutions, with three operations: selection, crossover and mutation.}
+      \field{title}{Tackling {Real}-{Coded} {Genetic} {Algorithms}: {Operators} and {Tools} for {Behavioural} {Analysis}}
+      \field{year}{1998}
+      \verb{file}
+      \verb Herrera et al. - Tackling Real-Coded Genetic Algorithms Operators .pdf:/Users/jonasmetzger/Zotero/storage/2P6KQU4D/Herrera et al. - Tackling Real-Coded Genetic Algorithms Operators .pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{karlupia_genetic_2023}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4d1fee0737d7b2b9465583174b21bff3}{%
+           family={Karlupia},
+           familyi={K\bibinitperiod},
+           given={Namrata},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87b995be15058a7c5d3d0889f9da1943}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Palak},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0581af131a8fc15908686167a868bcf2}{%
+           family={Abrol},
+           familyi={A\bibinitperiod},
+           given={Pawanesh},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de9fc44248661306c3b34c02309e479e}{%
+           family={Lehana},
+           familyi={L\bibinitperiod},
+           given={Parveen\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d19f6c2a1bb795bac87e061156320efa}
+      \strng{fullhash}{eddd1822899093ebd128b041bf599223}
+      \strng{bibnamehash}{eddd1822899093ebd128b041bf599223}
+      \strng{authorbibnamehash}{eddd1822899093ebd128b041bf599223}
+      \strng{authornamehash}{d19f6c2a1bb795bac87e061156320efa}
+      \strng{authorfullhash}{eddd1822899093ebd128b041bf599223}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1641-876X, 2083-8492}
+      \field{journaltitle}{International Journal of Applied Mathematics and Computer Science}
+      \field{number}{1}
+      \field{title}{A genetic algorithm based optimized convolutional neural network for face recognition}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.34768/amcs-2023-0002
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/jonasmetzger/Zotero/storage/DQ9XPPZJ/Karlupia et al. - 2023 - A genetic algorithm based optimized convolutional .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://sciendo.com/article/10.34768/amcs-2023-0002
+      \endverb
+      \verb{url}
+      \verb https://sciendo.com/article/10.34768/amcs-2023-0002
+      \endverb
+    \endentry
+    \entry{kruse_evolutionare_2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8c6bfb55f611e5129b73e1ba174e45bb}{%
+           family={Kruse},
+           familyi={K\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=601870b2622b0bc3355366b34ff0821a}{%
+           family={Held},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{fullhash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{bibnamehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{authorbibnamehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{authornamehash}{cefade6cdd478780940e9e50e4987cd3}
+      \strng{authorfullhash}{cefade6cdd478780940e9e50e4987cd3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Evolutionäre {Algorithmen} {Variation} und genetische {Operatoren}}
+      \field{year}{2013}
+      \verb{file}
+      \verb Kruse and Held - Otto-von-Guericke-Universität Magdeburg Fakultät f.pdf:/Users/jonasmetzger/Zotero/storage/W2RCJ95G/Kruse and Held - Otto-von-Guericke-Universität Magdeburg Fakultät f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://fuzzy.cs.ovgu.de/ci/ea/ea2013_v04_operatoren.pdf
+      \endverb
+      \verb{url}
+      \verb http://fuzzy.cs.ovgu.de/ci/ea/ea2013_v04_operatoren.pdf
+      \endverb
+    \endentry
+    \entry{noauthor_mnist_nodate}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{{MNIST} handwritten digit database, {Yann} {LeCun}, {Corinna} {Cortes} and {Chris} {Burges}}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb MNIST handwritten digit database, Yann LeCun, Corinna Cortes and Chris Burges:/Users/jonasmetzger/Zotero/storage/7ZNRDWZE/mnist.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://yann.lecun.com/exdb/mnist/
+      \endverb
+      \verb{url}
+      \verb https://yann.lecun.com/exdb/mnist/
+      \endverb
+    \endentry
+    \entry{schaul_no_2013}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a56e72b23778a835bdade7d0511e43a3}{%
+           family={Schaul},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=facc531af74a8a6f7697ee9fb168f906}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Sixin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{04a0db021533adedf96ff47bc975d01a}
+      \strng{fullhash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \strng{bibnamehash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \strng{authorbibnamehash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \strng{authornamehash}{04a0db021533adedf96ff47bc975d01a}
+      \strng{authorfullhash}{50a2d40276d6edf03d218a8f3fbf590d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The performance of stochastic gradient descent (SGD) depends critically on how learning rates are tuned and decreased over time. We propose a method to automatically adjust multiple learning rates so as to minimize the expected error at any one time. The method relies on local gradient variations across samples. In our approach, learning rates can increase as well as decrease, making it suitable for non-stationary problems. Using a number of convex and non-convex learning tasks, we show that the resulting algorithm matches the performance of SGD or other adaptive approaches with their best settings obtained through systematic search, and eﬀectively removes the need for learning rate tuning.}
+      \field{month}{2}
+      \field{note}{arXiv:1206.1106 [cs, stat]}
+      \field{title}{No {More} {Pesky} {Learning} {Rates}}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Schaul et al. - 2013 - No More Pesky Learning Rates.pdf:/Users/jonasmetzger/Zotero/storage/S7GIQJJP/Schaul et al. - 2013 - No More Pesky Learning Rates.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1206.1106
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1206.1106
+      \endverb
+      \keyw{Statistics - Machine Learning,Computer Science - Machine Learning}
+    \endentry
+    \entry{sonnet_neuronale_2022}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5bc52c0522ab22c6d4a44caaa495bfc3}{%
+           family={Sonnet},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{fullhash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{bibnamehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{authorbibnamehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{authornamehash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \strng{authorfullhash}{5bc52c0522ab22c6d4a44caaa495bfc3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-658-29080-1}
+      \field{series}{{IT} kompakt}
+      \field{shorttitle}{Neuronale {Netze} kompakt}
+      \field{title}{Neuronale {Netze} kompakt: {Vom} {Perceptron} zum {Deep} {Learning}}
+      \field{urlday}{30}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-658-29081-8
+      \endverb
+      \verb{file}
+      \verb Sonnet - 2022 - Neuronale Netze kompakt Vom Perceptron zum Deep L.pdf:/Users/jonasmetzger/Zotero/storage/RZQEKRSH/Sonnet - 2022 - Neuronale Netze kompakt Vom Perceptron zum Deep L.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-658-29081-8
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-658-29081-8
+      \endverb
+    \endentry
+    \entry{stelldinger_naturanaloge_2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d59b5cbed601e4734e3a78f47e39ad1d}{%
+           family={Stelldinger},
+           familyi={S\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Peer},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de}%
+      }
+      \strng{namehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{fullhash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{bibnamehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{authorbibnamehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{authornamehash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \strng{authorfullhash}{d59b5cbed601e4734e3a78f47e39ad1d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Künstliche Intelligenz}
+      \field{title}{Naturanaloge {Optimierungsverfahren} – {Genetische} {Algorithmen}}
+      \field{year}{2024}
+      \verb{file}
+      \verb Stelldinger - 2024 - Naturanaloge Optimierungsverfahren – Genetische Al.pdf:/Users/jonasmetzger/Zotero/storage/XLQAADJX/Stelldinger - 2024 - Naturanaloge Optimierungsverfahren – Genetische Al.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{wolfangel_chatgpt_2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a30357b090f56d13fc631f774742f074}{%
+           family={Wolfangel},
+           familyi={W\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {de-DE}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \strng{namehash}{a30357b090f56d13fc631f774742f074}
+      \strng{fullhash}{a30357b090f56d13fc631f774742f074}
+      \strng{bibnamehash}{a30357b090f56d13fc631f774742f074}
+      \strng{authorbibnamehash}{a30357b090f56d13fc631f774742f074}
+      \strng{authornamehash}{a30357b090f56d13fc631f774742f074}
+      \strng{authorfullhash}{a30357b090f56d13fc631f774742f074}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Künstliche Intelligenz könnte die menschliche irgendwann überflügeln. Manche halten das für Science-Fiction. Einige Forscher sehen erste Anzeichen dafür schon in GPT-4.}
+      \field{issn}{0044-2070}
+      \field{journaltitle}{Die Zeit}
+      \field{month}{4}
+      \field{shorttitle}{{ChatGPT}}
+      \field{title}{{ChatGPT}: {Wie} nah sind wir an der {Superintelligenz}?}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jonasmetzger/Zotero/storage/7JMK8D5K/chatgpt-kuenstliche-intelligenz-forschung.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.zeit.de/digital/2023-04/chatgpt-kuenstliche-intelligenz-forschung
+      \endverb
+      \verb{url}
+      \verb https://www.zeit.de/digital/2023-04/chatgpt-kuenstliche-intelligenz-forschung
+      \endverb
+      \keyw{Chatbot,ChatGPT,Forschung,Intelligenz,künstliche Intelligenz,Singularität,Sprachmodell,Superintelligenz}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
